@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|c:\\users\\wikto\\source\\repos\\.net final\\autoswift\\api\\dotnetapicars\\dotnetapicars\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|solutionrelative:dotnetapicars\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|c:\\users\\wikto\\source\\repos\\.net final\\autoswift\\api\\dotnetapicars\\dotnetapicars\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|solutionrelative:dotnetapicars\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|c:\\users\\wikto\\source\\repos\\.net final\\autoswift\\api\\dotnetapicars\\dotnetapicars\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|solutionrelative:dotnetapicars\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|c:\\users\\wikto\\source\\repos\\.net final\\autoswift\\api\\dotnetapicars\\dotnetapicars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|solutionrelative:dotnetapicars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|c:\\users\\wikto\\source\\repos\\.net final\\autoswift\\api\\dotnetapicars\\dotnetapicars\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC96F5C2-4E07-4C29-8B93-EA01DA0E638E}|DotNetApiCars\\DotNetApiCars.csproj|solutionrelative:dotnetapicars\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "DotNetApiCars\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\EmailSettings.cs",
+              "RelativeToolTip": "DotNetApiCars\\EmailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T21:48:30.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\EmailSender.cs",
+              "RelativeDocumentMoniker": "DotNetApiCars\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\EmailSender.cs",
+              "RelativeToolTip": "DotNetApiCars\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T21:48:28.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\Program.cs",
+              "RelativeDocumentMoniker": "DotNetApiCars\\Program.cs",
+              "ToolTip": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\Program.cs",
+              "RelativeToolTip": "DotNetApiCars\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T21:48:10.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\appsettings.json",
+              "RelativeDocumentMoniker": "DotNetApiCars\\appsettings.json",
+              "ToolTip": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\appsettings.json",
+              "RelativeToolTip": "DotNetApiCars\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T21:46:29.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DotNetApiCars\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\wikto\\source\\repos\\.Net Final\\AutoSwift\\Api\\DotNetApiCars\\DotNetApiCars\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DotNetApiCars\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T21:46:23.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

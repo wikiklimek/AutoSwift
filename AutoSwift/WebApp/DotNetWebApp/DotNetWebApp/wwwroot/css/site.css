@@ -1,0 +1,523 @@
+/* Global Styles */
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-top: auto; /* Added margin to push content down from the navbar */
+    margin-bottom: 60px; /* Added margin to ensure space for the footer */
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a; /* Dark gray */
+}
+
+/* Button Styles */
+.btn, .rent-btn, .search-btn, .ask-price-btn {
+    background-color: #6c5ce7; /* Purple base color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover, .rent-btn:hover, .search-btn:hover, .ask-price-btn:hover {
+        background-color: #4a4aeb; /* Slightly darker purple */
+    }
+
+.ask-price-btn {
+    background-color: #f39c12; /* Yellow */
+    cursor: not-allowed;
+}
+
+    .ask-price-btn:hover {
+        background-color: #e67e22; /* Darker yellow */
+    }
+
+.search-btn {
+    background-color: #6c5ce7; /* Purple */
+}
+
+    .search-btn:hover {
+        background-color: #4a4aeb; /* Darker purple */
+    }
+
+/* Page Wrapper */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a; /* Dark gray */
+    padding: 20px;
+    max-width: 1200px;
+    min-height: calc(100vh - 120px); /* Account for the height of the navbar and footer */
+    text-align: center;
+    padding-bottom: 60px; /* Ensure there's space for the footer */
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #6c5ce7; /* Purple */
+}
+
+/* Search Form */
+.search-form-container {
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-input {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Grid for Car Cards */
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Car Card */
+.car-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .car-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+/* Image Placeholder */
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background */
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    color: #6c5ce7; /* Purple text */
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Car Info */
+.car-info {
+    text-align: center;
+}
+
+    .car-info h2 {
+        margin: 10px 0 5px;
+        color: #4a4a4a; /* Dark gray */
+        font-size: 18px;
+    }
+
+    .car-info p {
+        margin: 0 0 15px;
+        color: #6c5ce7; /* Purple */
+        font-size: 16px;
+    }
+
+    .car-info .btn {
+        text-transform: uppercase;
+    }
+
+        .car-info .btn:hover {
+            background-color: #4a4aeb; /* Darker purple */
+        }
+
+/* No Results Message */
+.no-results {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #6c5ce7; /* Purple */
+    font-weight: bold;
+}
+
+/* Rent Page Styling */
+.car-rent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 30px;
+}
+
+/* Car Image Section */
+.car-image-section {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    .car-image-section .image-placeholder {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Light gray */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #6c5ce7; /* Purple */
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+/* Car Info Section */
+.car-info-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+    .car-info-section h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #4a4a4a; /* Dark gray */
+    }
+
+    .car-info-section p {
+        font-size: 16px;
+        color: #6c5ce7; /* Purple */
+        margin-bottom: 10px;
+    }
+
+/* Back to List Button */
+.back-to-list {
+    margin-top: 30px;
+    text-align: center;
+}
+
+    .back-to-list .btn-link {
+        color: #6c5ce7; /* Purple */
+        text-decoration: none;
+    }
+
+        .back-to-list .btn-link:hover {
+            text-decoration: underline;
+        }
+
+/* Title */
+.page-wrapper h1 {
+    font-size: 36px;
+    color: #6c5ce7; /* Purple */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Login Card Styling */
+.card {
+    width: 100%; /* Full width of the screen */
+    max-width: 900px; /* Maximum width to prevent it from becoming too wide */
+    margin: 0 auto; /* Center it horizontally */
+    padding: 30px; /* Padding for internal spacing */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px; /* Ensure the card has a minimum height */
+}
+
+    .card h2 {
+        font-size: 24px;
+        color: #4a4a4a; /* Dark gray */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+/* Form Inputs */
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    padding: 12px 15px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+#login-submit {
+    background-color: #6c5ce7; /* Purple */
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #login-submit:hover {
+        background-color: #4a4aeb; /* Darker purple */
+    }
+
+/* Registration Form Specific Styles */
+.card h2 {
+    font-size: 24px;
+    color: #4a4a4a; /* Dark gray */
+}
+
+.form-floating {
+    margin-bottom: 15px;
+    font-size: 14px; /* Smaller font for inputs */
+}
+
+    .form-floating input,
+    .form-floating label {
+        font-size: 14px; /* Smaller font for labels and inputs */
+    }
+
+.page-wrapper h1 {
+    font-size: 32px;
+}
+
+.page-wrapper .col-md-6 {
+    margin-bottom: 20px;
+}
+
+button#w-100 {
+    font-size: 14px; /* Adjusted font size for the button */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-wrapper {
+        padding: 20px;
+    }
+
+    .card {
+        max-width: 100%; /* Remove max-width for mobile devices */
+        padding: 20px; /* Increased padding for mobile */
+        min-height: auto; /* Remove minimum height for mobile */
+    }
+
+    .page-wrapper h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .form-control {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    #login-submit {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+}
+
+/* Pagination Container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+    .pagination a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6c5ce7; /* Purple */
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .pagination a:hover {
+            background-color: #4a4aeb; /* Darker purple */
+            transform: scale(1.05);
+        }
+
+    .pagination .disabled {
+        background-color: #d3d3d3; /* Gray */
+        color: #a0a0a0;
+        cursor: not-allowed;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+
+        .pagination .disabled:hover {
+            background-color: #d3d3d3; /* Gray */
+            transform: none;
+        }
+
+/* Sorting and Filter Buttons */
+.sort-filter-btn {
+    background-color: #6c5ce7; /* Purple base color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+    .sort-filter-btn:hover {
+        background-color: #4a4aeb; /* Darker purple */
+        transform: scale(1.05);
+    }
+
+    /* Sorting Icon */
+    .sort-filter-btn i {
+        font-size: 18px;
+    }
+
+/* Filter Dropdown Button */
+.filter-dropdown-btn {
+    background-color: #6c5ce7; /* Purple base color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+    .filter-dropdown-btn:hover {
+        background-color: #4a4aeb; /* Darker purple */
+        transform: scale(1.05);
+    }
+
+/* Filter Dropdown Options */
+.filter-options {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 1rem;
+    color: #4a4a4a; /* Dark gray */
+    max-height: 200px;
+    overflow-y: auto;
+    display: none; /* Hidden by default */
+}
+
+    .filter-options.active {
+        display: block; /* Show when active */
+    }
+
+/* Filter Option */
+.filter-option {
+    padding: 10px;
+    color: #6c5ce7; /* Purple text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .filter-option:hover {
+        background-color: #f0f0f0; /* Light gray */
+    }
+
+/* Sort By Dropdown */
+.sort-by-dropdown {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    font-size: 1rem;
+    color: #4a4a4a; /* Dark gray */
+}
+
+    .sort-by-dropdown option {
+        padding: 10px;
+        font-size: 1rem;
+        color: #4a4a4a;
+    }
+
+    /* Active sorting style */
+    .sort-by-dropdown:focus {
+        outline: none;
+        border-color: #6c5ce7; /* Purple */
+    }
+
+    .sort-by-dropdown option:hover {
+        background-color: #f0f0f0; /* Light gray */
+    }
+
+/* Adding some margin and spacing */
+.sort-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    /* Add padding to the button container */
+    .sort-filter-container button {
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+/* Responsive Design for Sort/Filter */
+@media (max-width: 768px) {
+    .sort-filter-btn,
+    .filter-dropdown-btn {
+        font-size: 14px; /* Slightly smaller font size */
+        padding: 8px 12px;
+    }
+}
